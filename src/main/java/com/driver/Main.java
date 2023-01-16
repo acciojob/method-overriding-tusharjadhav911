@@ -5,12 +5,12 @@ public class Main {
        B a=new B();
        String s=a.meth();
     }
-    class A {
+    public class A {
         public String meth(){
             return "Invoking method from class A";
         }
     }
-    class B extends A{
+    public class B extends A{
         public String meth(){
             return "Method is overridden in Extendend class B";
         }
